@@ -12,6 +12,9 @@ import HookRefForward from './Components/HookRefForward';
 import HookCallbackRef from './Components/HookCallbackRef';
 import HookReducer from './Components/HookReducer';
 import HookReducerUp from './Components/HookReducerUp';
+import HookContext from './Components/HookContext';
+import MyThemeProvider from './Components/MyThemeProvider';
+import HookThemeButton from './Components/HookThemeButton';
 
 
 
@@ -28,6 +31,10 @@ root.render(
     <HookCallbackRef/>
     <HookReducer init={0}/>
     <HookReducerUp init={0}/>
+    <HookContext/>
+    <MyThemeProvider>
+      <HookThemeButton/>
+    </MyThemeProvider>
 
   </React.StrictMode>
 );
