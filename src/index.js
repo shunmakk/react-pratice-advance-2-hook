@@ -8,6 +8,8 @@ import HookTimer from './Components/HookTimer';
 // import HookEffect from './Components/HookEffect';
 import HookRefNg from './Components/HookRefNg';
 import HookRef from './Components/HookRef';
+import HookRefForward from './Components/HookRefForward';
+import HookCallbackRef from './Components/HookCallbackRef';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +21,9 @@ root.render(
     {/* <HookEffect init={10}/> 警告が出るため非表示 */}
     <HookRefNg/>
     <HookRef/>
+    <HookRefForward/>
+    <HookCallbackRef/>
+
   </React.StrictMode>
 );
 

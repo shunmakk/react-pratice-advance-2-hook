@@ -29,7 +29,7 @@ const reset = () => {
     <div>
        <h3>useRef関数を使ってタイマーが正常に動作するようにする</h3>
        <button onClick={handleStart}>開始</button>
-       <button onClick={handleEnd}>終了</button>
+       <button onClick={handleEnd}>ストップ</button>
        <button onClick={reset}>リセット</button>
        <p>{count}秒経過</p>
     </div>
