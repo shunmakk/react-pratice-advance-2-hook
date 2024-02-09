@@ -10,6 +10,9 @@ import HookRefNg from './Components/HookRefNg';
 import HookRef from './Components/HookRef';
 import HookRefForward from './Components/HookRefForward';
 import HookCallbackRef from './Components/HookCallbackRef';
+import HookReducer from './Components/HookReducer';
+import HookReducerUp from './Components/HookReducerUp';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +26,8 @@ root.render(
     <HookRef/>
     <HookRefForward/>
     <HookCallbackRef/>
+    <HookReducer init={0}/>
+    <HookReducerUp init={0}/>
 
   </React.StrictMode>
 );
