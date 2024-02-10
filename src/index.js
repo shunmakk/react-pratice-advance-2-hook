@@ -18,6 +18,7 @@ import HookThemeButton from './Components/HookThemeButton';
 import RecoilCounter from './Components/RecoilCounter';
 import { RecoilRoot } from 'recoil';
 import RecoilTodo from './Components/RecoilTodo';
+import RecoilTodoUp from './Components/RecoilTodoUp';
 
 
 
@@ -42,7 +43,9 @@ root.render(
    <RecoilRoot>
    <RecoilCounter/> 
    <RecoilTodo/>
+   <RecoilTodoUp/>
    </RecoilRoot>
+   
   </React.StrictMode>
 );
 
