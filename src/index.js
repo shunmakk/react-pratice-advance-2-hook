@@ -19,6 +19,8 @@ import RecoilCounter from './Components/RecoilCounter';
 import { RecoilRoot } from 'recoil';
 import RecoilTodo from './Components/RecoilTodo';
 import RecoilTodoUp from './Components/RecoilTodoUp';
+import HookMemo from './Components/HookMemo';
+import HookTranstion from './Components/HookTranstion';
 
 
 
@@ -45,6 +47,11 @@ root.render(
    <RecoilTodo/>
    <RecoilTodoUp/>
    </RecoilRoot>
+   {/* memo*/}
+   <HookMemo/>
+   {/* trainstion*/}
+   <HookTranstion/>
+
    
   </React.StrictMode>
 );
