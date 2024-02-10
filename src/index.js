@@ -15,6 +15,9 @@ import HookReducerUp from './Components/HookReducerUp';
 import HookContext from './Components/HookContext';
 import MyThemeProvider from './Components/MyThemeProvider';
 import HookThemeButton from './Components/HookThemeButton';
+import RecoilCounter from './Components/RecoilCounter';
+import { RecoilRoot } from 'recoil';
+import RecoilTodo from './Components/RecoilTodo';
 
 
 
@@ -35,7 +38,11 @@ root.render(
     <MyThemeProvider>
       <HookThemeButton/>
     </MyThemeProvider>
-
+   {/* recoil*/}
+   <RecoilRoot>
+   <RecoilCounter/> 
+   <RecoilTodo/>
+   </RecoilRoot>
   </React.StrictMode>
 );
 
