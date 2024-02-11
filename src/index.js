@@ -21,6 +21,7 @@ import RecoilTodo from './Components/RecoilTodo';
 import RecoilTodoUp from './Components/RecoilTodoUp';
 import HookMemo from './Components/HookMemo';
 import HookTranstion from './Components/HookTranstion';
+import HookDeferred from './Components/HookDeferred';
 
 
 
@@ -51,6 +52,7 @@ root.render(
    <HookMemo/>
    {/* trainstion*/}
    <HookTranstion/>
+   <HookDeferred/>
 
    
   </React.StrictMode>
